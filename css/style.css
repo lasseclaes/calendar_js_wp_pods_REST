@@ -1,3 +1,7 @@
+/* calendar from https://zellwk.com/blog/calendar-with-css-grid - I think it is a good starting point with the grid, datetime etc. and the placing of the first date .date-grid button:first-child*/
+
+/* the code heavily lacks commenting I'm afraid - sorry. See the videos and comment it yourself, thanks. */
+
 :root {
   --teal-050: #effcf6;
   --teal-100: #c6f7e2;
