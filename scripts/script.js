@@ -30,7 +30,7 @@ function fetchEventsForCalendar() {
 }
 
 function handleData(events) {
-  events.forEach(addToCalendar); //looping through all bikes
+  events.forEach(addToCalendar); //looping through all bikes - or events...
 }
 
 function addToCalendar(event) {
@@ -107,7 +107,6 @@ function showEventInformation(evt) {
   console.log(myData._embedded["wp:featuredmedia"][0].media_details.sizes.full);
   img.src = myData._embedded["wp:featuredmedia"][0].media_details.sizes.full.source_url;
 }
-
 
 //https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_date_weekday - rewritten as a function
 function getDayName(number) {
